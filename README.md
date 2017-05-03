@@ -1,4 +1,4 @@
-# -[Minecraft Modpack]-Project Ultimate Experience
+# -[Minecraft Modpack]-Project: the Ultimate Experiences
 No source codes. Just using for the issue tracker.
 
 If you notice bugs, recipe conflicts, broken game balance and etc.. please report.

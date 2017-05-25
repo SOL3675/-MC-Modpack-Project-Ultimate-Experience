@@ -1,0 +1,333 @@
+[
+    {
+        "mode": "ADD",
+        "result": "[ic2:advanced_solar_panels_te_machines]:0",
+        "catalyst": "[advanced_solar_panels:crafting]:12",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "[ic2:resource]:13",
+            "[ic2:resource]:13",
+            "[ic2:resource]:13",
+            "[ic2:resource]:13",
+            "[ic2:te]:80",
+            "[ic2:te]:80",
+            "[ic2:crafting]:2",
+            "[ic2:crafting]:2"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[p455w0rdsthings:carbon_rod_1]",
+        "catalyst": "[p455w0rdsthings:carbon_rod_0]",
+        "energy": 20000,
+        "tier": 0,
+        "ingredients": [
+            "[dustRedstone]",
+            "[dustRedstone]",
+            "[dustRedstone]",
+            "[dustRedstone]",
+            "[dustRedstone]",
+            "[dustRedstone]",
+            "[dustRedstone]",
+            "[dustRedstone]",
+            "[dustRedstone]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[p455w0rdsthings:carbon_rod_2]",
+        "catalyst": "[p455w0rdsthings:carbon_rod_1]",
+        "energy": 20000,
+        "tier": 0,
+        "ingredients": [
+            "[gemLapis]",
+            "[gemLapis]",
+            "[gemLapis]",
+            "[gemLapis]",
+            "[gemLapis]",
+            "[gemLapis]",
+            "[gemLapis]",
+            "[gemLapis]",
+            "[gemLapis]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[p455w0rdsthings:carbon_rod_3]",
+        "catalyst": "[p455w0rdsthings:carbon_rod_2]",
+        "energy": 20000,
+        "tier": 0,
+        "ingredients": [
+            "[ingotIron]",
+            "[ingotIron]",
+            "[ingotIron]",
+            "[ingotIron]",
+            "[ingotIron]",
+            "[ingotIron]",
+            "[ingotIron]",
+            "[ingotIron]",
+            "[ingotIron]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[p455w0rdsthings:carbon_rod_4]",
+        "catalyst": "[p455w0rdsthings:carbon_rod_3]",
+        "energy": 20000,
+        "tier": 0,
+        "ingredients": [
+            "[ingotGold]",
+            "[ingotGold]",
+            "[ingotGold]",
+            "[ingotGold]",
+            "[ingotGold]",
+            "[ingotGold]",
+            "[ingotGold]",
+            "[ingotGold]",
+            "[ingotGold]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[p455w0rdsthings:carbon_rod_5]",
+        "catalyst": "[p455w0rdsthings:carbon_rod_4]",
+        "energy": 20000,
+        "tier": 0,
+        "ingredients": [
+            "[gemDiamond]",
+            "[gemDiamond]",
+            "[gemDiamond]",
+            "[gemDiamond]",
+            "[gemDiamond]",
+            "[gemDiamond]",
+            "[gemDiamond]",
+            "[gemDiamond]",
+            "[gemDiamond]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[p455w0rdsthings:carbon_rod_6]",
+        "catalyst": "[p455w0rdsthings:carbon_rod_5]",
+        "energy": 20000,
+        "tier": 0,
+        "ingredients": [
+            "[gemEmerald]",
+            "[gemEmerald]",
+            "[gemEmerald]",
+            "[gemEmerald]",
+            "[gemEmerald]",
+            "[gemEmerald]",
+            "[gemEmerald]",
+            "[gemEmerald]",
+            "[gemEmerald]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[p455w0rdsthings:emerald_carbon_helmet]",
+        "catalyst": "[ic2:nano_helmet]:0",
+        "energy": 2000000,
+        "tier": 0,
+        "ingredients": [
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[p455w0rdsthings:emerald_carbon_chestplate]",
+        "catalyst": "[ic2:nano_chestplate]:0",
+        "energy": 2000000,
+        "tier": 0,
+        "ingredients": [
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[p455w0rdsthings:emerald_carbon_leggings]",
+        "catalyst": "[ic2:nano_leggings]:0",
+        "energy": 2000000,
+        "tier": 0,
+        "ingredients": [
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[p455w0rdsthings:emerald_carbon_boots]",
+        "catalyst": "[ic2:nano_boots]:0",
+        "energy": 2000000,
+        "tier": 0,
+        "ingredients": [
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]",
+            "[p455w0rdsthings:carbon_rod_6]"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "[draconicevolution:draconic_helm]",
+        "catalyst": "[draconicevolution:wyvern_helm]"
+    },
+    {
+        "mode": "ADD",
+        "result": "[draconicevolution:draconic_helm]",
+        "catalyst": "[draconicevolution:wyvern_helm]",
+        "energy": 25600000,
+        "tier": 2,
+        "ingredients": [
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[solarfluxreborn:solar7]",
+            "[solarfluxreborn:solar7]",
+            "[fp:ftl_drive]",
+            "[fp:ftl_drive]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "[draconicevolution:draconic_chest]",
+        "catalyst": "[draconicevolution:wyvern_chest]"
+    },
+    {
+        "mode": "ADD",
+        "result": "[draconicevolution:draconic_chest]",
+        "catalyst": "[draconicevolution:wyvern_chest]",
+        "energy": 25600000,
+        "tier": 2,
+        "ingredients": [
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[solarfluxreborn:solar7]",
+            "[solarfluxreborn:solar7]",
+            "[fp:ftl_drive]",
+            "[fp:ftl_drive]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "[draconicevolution:draconic_legs]",
+        "catalyst": "[draconicevolution:wyvern_legs]"
+    },
+    {
+        "mode": "ADD",
+        "result": "[draconicevolution:draconic_legs]",
+        "catalyst": "[draconicevolution:wyvern_legs]",
+        "energy": 25600000,
+        "tier": 2,
+        "ingredients": [
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[solarfluxreborn:solar7]",
+            "[solarfluxreborn:solar7]",
+            "[fp:ftl_drive]",
+            "[fp:ftl_drive]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "[draconicevolution:draconic_boots]",
+        "catalyst": "[draconicevolution:wyvern_boots]"
+    },
+    {
+        "mode": "ADD",
+        "result": "[draconicevolution:draconic_boots]",
+        "catalyst": "[draconicevolution:wyvern_boots]",
+        "energy": 25600000,
+        "tier": 2,
+        "ingredients": [
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[draconicevolution:draconic_energy_core]",
+            "[solarfluxreborn:solar7]",
+            "[solarfluxreborn:solar7]",
+            "[fp:ftl_drive]",
+            "[fp:ftl_drive]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]",
+            "[ingotCosmicNeutronium]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[botania:pool]:1",
+        "catalyst": "[extrautils2:drum]:4",
+        "energy": 256000000,
+        "tier": 3,
+        "ingredients": [
+            "[avaritia:resource]:5",
+            "[avaritia:resource]:5",
+            "[avaritia:singularity]:0",
+            "[avaritia:singularity]:1",
+            "[avaritia:singularity]:2",
+            "[avaritia:singularity]:3",
+            "[avaritia:singularity]:4",
+            "[avaritia:singularity]:5",
+            "[avaritia:singularity]:6",
+            "[avaritia:singularity]:7",
+            "[avaritia:singularity]:8",
+            "[avaritia:singularity]:9",
+            "[avaritia:singularity]:10",
+            "[avaritia:singularity]:11",
+            "[avaritia:endest_pearl]",
+            "[avaritia:endest_pearl]",
+            "[draconicevolution:chaotic_core]",
+            "[draconicevolution:chaotic_core]",
+            "[botania:pool]:3",
+            "[botania:corporeaIndex]",
+            "[botania:corporeaIndex]",
+            "[arsmagica2:ender_boots]",
+            "[arsmagica2:ender_boots]",
+            "[rftools:peace_essence]",
+            "[rftools:peace_essence]"
+        ]
+    }
+]

@@ -1,5 +1,6 @@
 # Main Tech Tree Tweaks
 
+print("Start loading main tech tree's recipes");
 
 # Technology Tree
 
@@ -494,3 +495,6 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_sword>);
 recipes.addShaped(<avaritia:infinity_sword>, [[<extrautils2:creativechest>], 
                                    [<extrautils2:creativechest>], 
                                    [<ore:stickWood>]]);
+
+
+print("Main tech tree's recipes are changed succesfully!");

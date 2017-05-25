@@ -1,5 +1,7 @@
 # General Recipes Difficulty Changing
 
+print("Start loading armors recipes");
+
 # Ore Dictionary Entries
 
 <ore:ingotCarbon>.remove(<advancedrocketry:misc:1>);
@@ -122,12 +124,132 @@ recipes.remove(<p455w0rdsthings:emerald_carbon_boots>);
 
 
 
-print("quantum");
-futurepack.neonindustrial.add(<ic2:quantum_helmet:26>,[<ic2:te:75>,<p455w0rdsthings:emerald_carbon_helmet>,<advanced_solar_panels:crafting:5>],50);
+recipes.remove(<ic2:quantum_helmet>);
+recipes.remove(<ic2:quantum_chestplate>);
+recipes.remove(<ic2:quantum_leggings>);
+recipes.remove(<ic2:quantum_boots>);
 
-futurepack.neonindustrial.add(<minecraft:gold_ingot>,[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],2);
 
-futurepack.assembly.add(<minecraft:gold_ingot>,[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]);
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<ic2:quantum_helmet:26>, 2000, 300, [
+<ore:dragonEgg>, <draconicevolution:draconium_capacitor:0>, <ore:dragonEgg>,
+<gravisuite:crafting:3>, <p455w0rdsthings:emerald_carbon_helmet>, <gravisuite:crafting:3>,
+<ic2:te:75>, <liquid:astralsorcery.liquidstarlight>, <ic2:te:75>,
+<advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>
+]);
 
-# Generators
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<ic2:quantum_chestplate:26>, 2000, 300, [
+<ore:dragonEgg>, <draconicevolution:draconium_capacitor:0>, <ore:dragonEgg>,
+<gravisuite:crafting:3>, <p455w0rdsthings:emerald_carbon_chestplate>, <gravisuite:crafting:3>,
+<ic2:te:75>, <liquid:astralsorcery.liquidstarlight>, <ic2:te:75>,
+<advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>
+]);
 
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<ic2:quantum_leggings:26>, 2000, 300, [
+<ore:dragonEgg>, <draconicevolution:draconium_capacitor:0>, <ore:dragonEgg>,
+<gravisuite:crafting:3>, <p455w0rdsthings:emerald_carbon_leggings>, <gravisuite:crafting:3>,
+<ic2:te:75>, <liquid:astralsorcery.liquidstarlight>, <ic2:te:75>,
+<advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>
+]);
+
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<ic2:quantum_boots:26>, 2000, 300, [
+<ore:dragonEgg>, <draconicevolution:draconium_capacitor:0>, <ore:dragonEgg>,
+<gravisuite:crafting:3>, <p455w0rdsthings:emerald_carbon_boots>, <gravisuite:crafting:3>,
+<ic2:te:75>, <liquid:astralsorcery.liquidstarlight>, <ic2:te:75>,
+<advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>
+]);
+
+recipes.remove(<draconicevolution:wyvern_helm>);
+recipes.remove(<draconicevolution:wyvern_chest>);
+recipes.remove(<draconicevolution:wyvern_legs>);
+recipes.remove(<draconicevolution:wyvern_boots>);
+
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<draconicevolution:wyvern_helm>, 2000, 500, [
+<ic2:advanced_solar_panels_te_machines:5>, <ore:blockCrystalMatrix>, <ic2:advanced_solar_panels_te_machines:5>,
+<draconicevolution:energy_crystal:7>, <ic2:quantum_helmet>, <draconicevolution:energy_crystal:7>,
+<draconicevolution:energy_crystal:7>, <ore:blockCrystalMatrix>, <draconicevolution:energy_crystal:7>,
+<ore:blockLudicrite>, <ore:blockLudicrite>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>,
+<aura:ingotAngelSteel:10>, <aura:ingotAngelSteel:10>,
+<ore:matterOfEternity>, <ore:matterOfEternity>,
+<ore:matterOfEternity>, <ore:matterOfEternity>,
+<aura:ingotAngelSteel:10>, <aura:ingotAngelSteel:10>
+]);
+
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<draconicevolution:wyvern_chest>, 2000, 500, [
+<ic2:advanced_solar_panels_te_machines:5>, <ore:blockCrystalMatrix>, <ic2:advanced_solar_panels_te_machines:5>,
+<draconicevolution:energy_crystal:7>, <ic2:quantum_chestplate>, <draconicevolution:energy_crystal:7>,
+<draconicevolution:energy_crystal:7>, <ore:blockCrystalMatrix>, <draconicevolution:energy_crystal:7>,
+<ore:blockLudicrite>, <ore:blockLudicrite>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>,
+<aura:ingotAngelSteel:10>, <aura:ingotAngelSteel:10>,
+<ore:matterOfEternity>, <ore:matterOfEternity>,
+<ore:matterOfEternity>, <ore:matterOfEternity>,
+<aura:ingotAngelSteel:10>, <aura:ingotAngelSteel:10>
+]);
+
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<draconicevolution:wyvern_legs>, 2000, 500, [
+<ic2:advanced_solar_panels_te_machines:5>, <ore:blockCrystalMatrix>, <ic2:advanced_solar_panels_te_machines:5>,
+<draconicevolution:energy_crystal:7>, <ic2:quantum_leggings>, <draconicevolution:energy_crystal:7>,
+<draconicevolution:energy_crystal:7>, <ore:blockCrystalMatrix>, <draconicevolution:energy_crystal:7>,
+<ore:blockLudicrite>, <ore:blockLudicrite>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>,
+<aura:ingotAngelSteel:10>, <aura:ingotAngelSteel:10>,
+<ore:matterOfEternity>, <ore:matterOfEternity>,
+<ore:matterOfEternity>, <ore:matterOfEternity>,
+<aura:ingotAngelSteel:10>, <aura:ingotAngelSteel:10>
+]);
+
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<draconicevolution:wyvern_boots>, 2000, 500, [
+<ic2:advanced_solar_panels_te_machines:5>, <ore:blockCrystalMatrix>, <ic2:advanced_solar_panels_te_machines:5>,
+<draconicevolution:energy_crystal:7>, <ic2:quantum_boots>, <draconicevolution:energy_crystal:7>,
+<draconicevolution:energy_crystal:7>, <ore:blockCrystalMatrix>, <draconicevolution:energy_crystal:7>,
+<ore:blockLudicrite>, <ore:blockLudicrite>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>,
+<aura:ingotAngelSteel:10>, <aura:ingotAngelSteel:10>,
+<ore:matterOfEternity>, <ore:matterOfEternity>,
+<ore:matterOfEternity>, <ore:matterOfEternity>,
+<aura:ingotAngelSteel:10>, <aura:ingotAngelSteel:10>
+]);
+
+
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_helmet>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_chestplate>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_pants>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_boots>);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritia:infinity_helmet>,[
+[null,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<avaritia:resource:5>,<draconicevolution:draconic_helm>,<avaritia:resource:5>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null]]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritia:infinity_chestplate>,[
+[null,<minecraft:bedrock>,<minecraft:bedrock>,null,null,null,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,null,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,null,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<avaritia:resource:5>,<draconicevolution:draconic_chest>,<avaritia:resource:5>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,null]]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritia:infinity_pants>,[
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<avaritia:resource:5>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<draconicevolution:draconic_legs>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<avaritia:resource:5>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,null,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,null,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,null,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,null,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,null,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,null,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>]]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritia:infinity_boots>,[
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<avaritia:resource:5>,<draconicevolution:draconic_boots>,<avaritia:resource:5>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>],
+[<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,null,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>,<minecraft:bedrock>]]);
+
+
+print("Armour recipes are changed succesfully!");

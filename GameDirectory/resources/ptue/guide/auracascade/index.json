@@ -4,7 +4,7 @@
 	null,
 	"Aura Cascade does not support JEI, so I'll show you those recipes.",
 	null,
-        {"text":"Arcane Colored Ingots.","bold":"true"},
+        {"text":"Arcane Colored Ingots.","bold":true},
 	"You need a Cascading Proccesor to Craft.",
 	"Iron Ingot + Each colored Wool = Each colored Arcane Ingot"
 

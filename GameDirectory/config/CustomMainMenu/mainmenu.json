@@ -142,19 +142,7 @@
             }
         },
         
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
-        },
+        
         "Github":
         {
             "text" : "Issue Tracker",
@@ -191,7 +179,7 @@
 
         "version":
         {
-            "text" : "Closed Alpha v0.8.0",
+            "text" : "Open Beta v0.1.0",
             "posX" : 70,
             "posY" : 160,
             "color" : 16711680,

@@ -61,6 +61,78 @@ recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_de
 [<shadowmobs:spectralboltcharge>,<ore:itemSkull>,<shadowmobs:spectralboltcharge>],
 [<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
 
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}),[
+[<extrautils2:decorativesolidwood:1>,<extrautils2:decorativesolidwood:1>,<extrautils2:decorativesolidwood:1>],
+[<ore:ingotGoldMagical>,<minecraft:enchanting_table>,<ore:ingotGoldMagical>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ender"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ender"}),[
+[<actuallyadditions:blockMisc:6>,<actuallyadditions:blockMisc:6>,<actuallyadditions:blockMisc:6>],
+[<actuallyadditions:blockMisc:6>,<arsmagica2:essence:10>,<actuallyadditions:blockMisc:6>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}),[
+[<enderzoo:blockConfusingCharge>,<enderzoo:blockEnderCharge>,<enderzoo:blockConcussionCharge>],
+[<minecraft:tnt>,<minecraft:tnt>,<minecraft:tnt>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}),[
+[<ore:blockPackedIce>,<ore:blockPackedIce>,<ore:blockPackedIce>],
+[<ore:blockPackedIce>,<arsmagica2:essence:7>,<ore:blockPackedIce>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_dragonsbreath"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_dragonsbreath"}),[
+[<draconicevolution:dragon_heart>,<iceandfire:fire_dragon_heart>,<draconicevolution:dragon_heart>],
+[<ore:gemPearl>,<iceandfire:ice_dragon_heart>,<ore:gemPearl>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_redstone"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_redstone"}),[
+[<ore:blockRedstoneAlloy>,<ore:blockRedstoneAlloy>,<ore:blockRedstoneAlloy>],
+[<ore:blockRedstoneAlloy>,<forge:bucketFilled>.withTag({FluidName: "redstone", Amount: 1000}),<ore:blockRedstoneAlloy>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"}),[
+[<ore:plateDenseGold>,<ore:plateDenseGold>,<ore:plateDenseGold>],
+[<fp:spaceship:6>,<minecraft:lava_bucket>,<fp:spaceship:6>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}),[
+[<minecraft:skull:1>,<minecraft:skull:1>,<minecraft:skull:1>],
+[<minecraft:skull:1>,<overloaded:nether_star_block>,<minecraft:skull:1>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}),[
+[<ore:dustLunar>,<ore:dustLunar>,<ore:dustLunar>],
+[<ore:dustLunar>,<extrautils2:suncrystal>,<ore:dustLunar>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}),[
+[<projectred-core:resource_item:506>,<projectred-core:resource_item:506>,<projectred-core:resource_item:506>],
+[<projectred-core:resource_item:506>,<arsmagica2:rune:9>,<projectred-core:resource_item:506>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}),[
+[<ore:rodBlaze>,<ore:blockBlaze>,<ore:rodBlaze>],
+[<ore:rodBlaze>,<botania:brewery>,<ore:rodBlaze>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}),[
+[<ore:blockSlime>,<ore:blockSlime>,<ore:blockSlime>],
+[<ore:ingotKnightslime>,<ore:blockKnightslime>,<ore:ingotKnightslime>],
+[<ore:blockRedstone>,<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),<ore:blockRedstone>]]);
+
 #DE
 recipes.remove(<draconicevolution:generator>);
 recipes.addShaped(<draconicevolution:generator>,[

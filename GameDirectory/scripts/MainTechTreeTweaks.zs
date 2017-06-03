@@ -182,6 +182,12 @@ mods.actuallyadditions.Empowerer.addRecipe(<environmentaltech:hardened_stone:0>,
 recipes.remove(<draconicevolution:draconic_core>);
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:itemCrystalEmpowered:2>,<draconicevolution:draconic_core>,<draconicevolution:draconium_block>,<substratum:ingot:11>,<substratum:ingot:11>,<substratum:ingot:11>,100000,100);
 
+recipes.remove(<draconicevolution:crafting_pedestal:0>);
+recipes.addShaped(<draconicevolution:crafting_pedestal:0>, 
+[[<actuallyadditions:itemCrystalEmpowered:2>,<draconicevolution:draconic_core>,<actuallyadditions:itemCrystalEmpowered:2>], 
+[<ore:blockDraconium>,<essentialcraft:mithrilineCrystal:6>,<ore:blockDraconium>],
+[<actuallyadditions:itemCrystalEmpowered:2>,<ore:blockDraconium>,<actuallyadditions:itemCrystalEmpowered:2>]]);
+
 
 # RFTools
 
@@ -351,6 +357,12 @@ recipes.addShaped(<torchmaster:mega_torch>, [[null,<astralsorcery:ItemCraftingCo
 
 
 # Final
+
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<forestry:beeQueenGE>.withTag({MaxH: 20, Mate: {Chromosomes: [{UID1: "gendustry.bee.Chaotichaos", UID0: "gendustry.bee.Chaotichaos", Slot: 0 as byte}, {UID1: "forestry.speedSlowest", UID0: "forestry.speedSlowest", Slot: 1 as byte}, {UID1: "forestry.lifespanShorter", UID0: "forestry.lifespanShorter", Slot: 2 as byte}, {UID1: "forestry.fertilityHigh", UID0: "forestry.fertilityHigh", Slot: 3 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 4 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 6 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.flowersVanilla", UID0: "forestry.flowersVanilla", Slot: 9 as byte}, {UID1: "forestry.floweringSlower", UID0: "forestry.floweringSlower", Slot: 10 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 11 as byte}, {UID1: "forestry.effectNone", UID0: "forestry.effectNone", Slot: 12 as byte}]}, Health: 20, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "gendustry.bee.Chaotichaos", UID0: "gendustry.bee.Chaotichaos", Slot: 0 as byte}, {UID1: "forestry.speedSlowest", UID0: "forestry.speedSlowest", Slot: 1 as byte}, {UID1: "forestry.lifespanShorter", UID0: "forestry.lifespanShorter", Slot: 2 as byte}, {UID1: "forestry.fertilityHigh", UID0: "forestry.fertilityHigh", Slot: 3 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 4 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 6 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.flowersVanilla", UID0: "forestry.flowersVanilla", Slot: 9 as byte}, {UID1: "forestry.floweringSlower", UID0: "forestry.floweringSlower", Slot: 10 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 11 as byte}, {UID1: "forestry.effectNone", UID0: "forestry.effectNone", Slot: 12 as byte}]}}), 200, 200, [
+<draconicevolution:chaos_shard:0>,<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>,
+<draconicevolution:chaos_shard:0>, <liquid:liquiddna>, <draconicevolution:chaos_shard:0>,
+<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>
+]);
 
 mods.avaritia.ExtremeCrafting.addShaped(<minecraft:bedrock>*9,[[<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>],
 [<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>,<ore:compressed8xCobblestone>],
